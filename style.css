@@ -234,3 +234,17 @@ p{
 	right: 20px;
 	top: 0px;
 }
+
+footer{
+	content: '';
+	font-family: "roboto";
+	font-size: 16px;
+	border: 3px solid blue;
+	color: blue;
+	padding: 5px;
+	width: 200px;
+	text-align: center;
+	margin-left: 45vw;
+	margin-top: 50px;
+	margin-bottom: 60px;
+}
