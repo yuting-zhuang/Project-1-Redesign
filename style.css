@@ -131,3 +131,20 @@ h1{
 	  }
   }
 
+.sticky-subtitle{
+	display: inline-block;
+	background-color: #FFFD92;
+	width: 250px;
+	padding: 20px;
+	transform: rotate(-10deg);
+	text-align: center;
+	margin-top: 100px;
+	margin-left: 170px;
+	position: sticky;
+}
+.sticky-subtitle h2{
+	font-family: "Covered By Your Grace";
+	font-size: 32px;
+	color: blue;
+}
+
