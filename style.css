@@ -130,7 +130,9 @@ h1{
 		transform: translate(0, 0);
 	  }
   }
-
+.content{
+	margin-top: 100px;
+}
 .sticky-subtitle1{
 	display: inline-block;
 	background-color: #FFFD92;
@@ -138,7 +140,6 @@ h1{
 	padding: 20px;
 	transform: rotate(-10deg);
 	text-align: center;
-	margin-top: 100px;
 	margin-left: 170px;
 	position: sticky;
 	top: 22px;
@@ -157,7 +158,6 @@ h1{
 	padding: 20px;
 	transform: rotate(10deg);
 	text-align: center;
-	margin-top: 100px;
 	margin-left: 170px;
 	position: sticky;
 	top: 22px;
@@ -169,12 +169,14 @@ h1{
 	position: sticky;
 }
 
+
 p{
 	font-size: 18px;
 	font-family: "roboto";
 	line-height: 1.5;
 	max-width: 700px;
 	margin-left: 600px;
+	margin-bottom: 20px;
 	/* margin-top: -130px; */
 }
 .highlight{
@@ -217,4 +219,18 @@ p{
 	text-align: right;
 	right: 40px;
 	top: 75px;
+}
+
+.quote-mark3{
+	position: absolute;
+	color: #FFFD92;
+	font-size: 150px;
+	font-family: "Rammetto One";
+	/* display: inline-block;
+	vertical-align: top; */
+	line-height: 1;
+	z-index: -1;
+	text-align: right;
+	right: 20px;
+	top: 0px;
 }
