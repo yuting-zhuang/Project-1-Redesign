@@ -62,7 +62,7 @@
 	margin-right: 160px;
 }
 .title-container:hover{
-	transform: rotate(-30deg);
+	transform: rotate(-15deg);
 	border: none;
 }
 .title-container:hover h1{
