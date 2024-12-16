@@ -131,7 +131,7 @@ h1{
 	  }
   }
 
-.sticky-subtitle{
+.sticky-subtitle1{
 	display: inline-block;
 	background-color: #FFFD92;
 	width: 250px;
@@ -141,12 +141,32 @@ h1{
 	margin-top: 100px;
 	margin-left: 170px;
 	position: sticky;
-	display: flex;
+	top: 22px;
 }
-.sticky-subtitle h2{
+.sticky-subtitle1 h2{
 	font-family: "Covered By Your Grace";
 	font-size: 32px;
 	color: blue;
+	position: sticky;
+}
+
+.sticky-subtitle2{
+	display: inline-block;
+	background-color: #FFFD92;
+	width: 250px;
+	padding: 20px;
+	transform: rotate(10deg);
+	text-align: center;
+	margin-top: 100px;
+	margin-left: 170px;
+	position: sticky;
+	top: 22px;
+}
+.sticky-subtitle2 h2{
+	font-family: "Covered By Your Grace";
+	font-size: 32px;
+	color: blue;
+	position: sticky;
 }
 
 p{
@@ -155,9 +175,46 @@ p{
 	line-height: 1.5;
 	max-width: 700px;
 	margin-left: 600px;
-	margin-top: -130px;
+	/* margin-top: -130px; */
 }
 .highlight{
 	background-color: #FFFD92;
 	font-weight: bold;
+}
+
+.quote-paragraph{
+	font-size: 16px;
+	color: blue;
+	font-family: "roboto";
+	font-style: italic;
+	position: relative;
+	line-height: 1.6;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.quote-mark1{
+	position: absolute;
+	color: #FFFD92;
+	font-size: 150px;
+	font-family: "Rammetto One";
+	/* display: inline-block;
+	vertical-align: top; */
+	line-height: 1;
+	z-index: -1;
+	left: -30px;
+}
+
+.quote-mark2{
+	position: absolute;
+	color: #FFFD92;
+	font-size: 150px;
+	font-family: "Rammetto One";
+	/* display: inline-block;
+	vertical-align: top; */
+	line-height: 1;
+	z-index: -1;
+	text-align: right;
+	right: 40px;
+	top: 75px;
 }
