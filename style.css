@@ -52,6 +52,33 @@
 	margin-left: 160px;
 	margin-right: 160px;
 }
+.title-container:hover{
+	transform: rotate(-30deg);
+	border: none;
+}
+.title-container:hover h1{
+	animation: none;
+	font-size: 80px;
+	color: blue;
+}
+	h1 span.t{
+		font-family: "Gloria Hallelujah";
+	}
+	h1 span.hats{
+		font-family: "Covered By Your Grace";
+	}
+	h1 span.en{
+		font-family: "Permanent Marker";
+	}
+	h1 span.tertain{
+		font-family: "Covered By Your Grace";
+	}
+	h1 span.m{
+		font-family: "Give You Glory";
+	}
+	h1 span.ent{
+		font-family: "Covered By Your Grace";
+	}
 
 
 h1{
